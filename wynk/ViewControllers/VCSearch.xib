@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VCSearch" customModule="wynk" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="Guu-6s-8bU" id="lYy-16-aI9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewForSuggetion" destination="JeJ-KI-QpX" id="o6s-Ki-XCH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="Enter keyword" translatesAutoresizingMaskIntoConstraints="NO" id="Guu-6s-8bU">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JeJ-KI-QpX">
+                    <rect key="frame" x="0.0" y="100" width="414" height="473"/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JeJ-KI-QpX" secondAttribute="bottom" constant="289" id="4he-Ok-hcQ"/>
+                <constraint firstItem="Guu-6s-8bU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5mS-EF-yxL"/>
+                <constraint firstItem="Guu-6s-8bU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Dxa-OC-7AG"/>
+                <constraint firstItem="JeJ-KI-QpX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="I9R-gf-vZE"/>
+                <constraint firstItem="JeJ-KI-QpX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bDz-gT-UYj"/>
+                <constraint firstItem="JeJ-KI-QpX" firstAttribute="top" secondItem="Guu-6s-8bU" secondAttribute="bottom" id="pF1-PZ-ScA"/>
+                <constraint firstItem="Guu-6s-8bU" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="zjy-MG-xP0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="128.57142857142856"/>
+        </view>
+    </objects>
+</document>
