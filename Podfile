@@ -7,6 +7,5 @@ target 'wynk' do
 
   pod 'Alamofire', '~> 5.0'
   pod 'SwiftyJSON'
-  pod 'Parchment'
 
 end

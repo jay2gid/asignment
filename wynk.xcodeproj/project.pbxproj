@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C2575F81F6642704219AE4DE /* Pods_wynk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF745A002154C78E2353902C /* Pods_wynk.framework */; };
+		FA23B1232497B36D00B7C681 /* ImageSlidePVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23B1212497B36D00B7C681 /* ImageSlidePVC.swift */; };
+		FA23B1242497B36D00B7C681 /* ImageSlidePVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA23B1222497B36D00B7C681 /* ImageSlidePVC.xib */; };
 		FA2769132493B13F005A6B6F /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2769122493B13F005A6B6F /* AppConstant.swift */; };
 		FA2769152493B15C005A6B6F /* Extenctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2769142493B15C005A6B6F /* Extenctions.swift */; };
 		FA27691A2493BD71005A6B6F /* VCImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2769182493BD71005A6B6F /* VCImages.swift */; };
@@ -54,6 +56,8 @@
 /* Begin PBXFileReference section */
 		0F2187689884C3ABFCFCE7E7 /* Pods-wynk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wynk.debug.xcconfig"; path = "Target Support Files/Pods-wynk/Pods-wynk.debug.xcconfig"; sourceTree = "<group>"; };
 		30CC5142401CBA9035B9DBE9 /* Pods-wynk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wynk.release.xcconfig"; path = "Target Support Files/Pods-wynk/Pods-wynk.release.xcconfig"; sourceTree = "<group>"; };
+		FA23B1212497B36D00B7C681 /* ImageSlidePVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlidePVC.swift; sourceTree = "<group>"; };
+		FA23B1222497B36D00B7C681 /* ImageSlidePVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSlidePVC.xib; sourceTree = "<group>"; };
 		FA2769122493B13F005A6B6F /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		FA2769142493B15C005A6B6F /* Extenctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenctions.swift; sourceTree = "<group>"; };
 		FA2769182493BD71005A6B6F /* VCImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCImages.swift; sourceTree = "<group>"; };
@@ -128,6 +132,15 @@
 				30CC5142401CBA9035B9DBE9 /* Pods-wynk.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA23B1202497B32C00B7C681 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				FA23B1212497B36D00B7C681 /* ImageSlidePVC.swift */,
+				FA23B1222497B36D00B7C681 /* ImageSlidePVC.xib */,
+			);
+			name = PageView;
 			sourceTree = "<group>";
 		};
 		FA2769162493BCBC005A6B6F /* VCSearch */ = {
@@ -253,6 +266,7 @@
 		FA8CE01224938683004FC70E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA23B1202497B32C00B7C681 /* PageView */,
 				FA2769172493BCD2005A6B6F /* VCImage */,
 				FA2769162493BCBC005A6B6F /* VCSearch */,
 				FA647FC0249506B70052A8EC /* FullImage */,
@@ -389,6 +403,7 @@
 				FA8CE01624939195004FC70E /* VCSearch.xib in Resources */,
 				FA27691B2493BD71005A6B6F /* VCImages.xib in Resources */,
 				FA8CDFEA24937F05004FC70E /* LaunchScreen.storyboard in Resources */,
+				FA23B1242497B36D00B7C681 /* ImageSlidePVC.xib in Resources */,
 				FA27691F2493BF5D005A6B6F /* CellImage.xib in Resources */,
 				FA8CDFE724937F05004FC70E /* Preview Assets.xcassets in Resources */,
 				FA647FBB249500E20052A8EC /* ViewSuggetion.xib in Resources */,
@@ -467,6 +482,7 @@
 				FA8CE01C24939E12004FC70E /* Reachability.swift in Sources */,
 				FA8CDFE024937F02004FC70E /* wynk.xcdatamodeld in Sources */,
 				FA8CDFDB24937F02004FC70E /* AppDelegate.swift in Sources */,
+				FA23B1232497B36D00B7C681 /* ImageSlidePVC.swift in Sources */,
 				FA27691A2493BD71005A6B6F /* VCImages.swift in Sources */,
 				FA8CE01024937FA1004FC70E /* AppUtility.swift in Sources */,
 				FA647FBE249506A80052A8EC /* VCFullImage.swift in Sources */,

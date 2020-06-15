@@ -9,6 +9,7 @@
 import UIKit
 import SwiftyJSON
 
+
 class VCFullImage: UIViewController {
 
     @IBOutlet var imgFullSize: UIImageView!
@@ -17,10 +18,11 @@ class VCFullImage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         loadImage()
     }
-
+    
+    var index = 0
+    
 
     func loadImage()  {
         imgFullSize.downloadImage(from: imageInfo["previewURL"].stringValue)

@@ -47,9 +47,13 @@ class VCImages: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
           
-            let vc = VCFullImage.init(nibName: "VCFullImage", bundle: nil)
-            vc.imageInfo = arrJson[indexPath.row]
-            AppUtility.Navigation.pushViewController(vc, animated: true)
+            let pvc = ImageSlidePVC.init(nibName: "ImageSlidePVC", bundle: nil)
+            
+            pvc.currentIndex = indexPath.row
+            pvc.arrJson = arrJson
+            
+            
+            AppUtility.Navigation.pushViewController(pvc, animated: true)
       
         }
 
